@@ -5,7 +5,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Verdana, sans-serif;
 }
 
 /* Border-box for consistent sizing */
@@ -64,7 +63,7 @@ top-main {
 }
 
 .header-hero h1 {
-  font-size: 36px;
+  font-size: 30px;
   letter-spacing: 20px;
   margin-bottom: 50px;
   position: relative;
@@ -74,7 +73,7 @@ top-main {
 .header-hero p {
   position: relative;
   font-size: 24px;
-  margin-bottom: 75px;
+  margin-bottom: 100px;
   letter-spacing: 2px;
   animation: move-right 3s;
 }
