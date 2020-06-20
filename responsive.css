@@ -92,6 +92,10 @@
   .content {
     padding: 0 50px;
   }
+  
+  .content-section {
+    height: 1250px;
+  }
 
   .content img {
     width: 100%;
