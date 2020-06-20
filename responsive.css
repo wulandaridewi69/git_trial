@@ -1,5 +1,12 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+    .background-white {
+        padding: 45px 0px 140px 0px;
+    }
+
+    .background-car2 {
+        padding: 130px 0px;
+    }
 }
 
 /* Untuk Smartphone */

@@ -1,20 +1,20 @@
 /* Edgar */
 /* Reset css */
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     font-family: Verdana, sans-serif;
-  }
+  } */
   
   /* Border-box for consistent sizing */
-  header,
+  /* header,
   top-main {
     box-sizing: border-box;
-  }
+  } */
   
   /* Nav-bar section */
-  .nav-bar {
+  /* .nav-bar {
     position: fixed;
     z-index: 10;
     width: 100%;
@@ -48,10 +48,10 @@
     cursor: pointer;
     border-bottom: 3px solid #fb0c1d;
     transition: all 0.5s;
-  }
+  }8/
   
   /* Hero section */
-  .hero-section {
+  /* .hero-section {
     background-image: url(top-assets/hero-background.png);
     background-size: cover;
     height: 100vh;
@@ -92,11 +92,11 @@
     color: #fb0c1d;
     background-color: transparent;
     border: 1px solid #fb0c1d;
-  }
+  } */
   
   /* Content section */
   
-  .content-section {
+  /* .content-section {
     margin: 75px 300px;
   }
   
@@ -125,11 +125,11 @@
   .content p {
     font-size: 20px;
     margin-bottom: 40px;
-  }
+  } */
   
   /* Animation */
   
-  @keyframes move-left {
+  /* @keyframes move-left {
     0% {
       opacity: 0;
       left: 200px;
@@ -161,14 +161,14 @@
       opacity: 1;
       right: 0;
     }
-  }
+  } */
   
 
 /* Dewi */
 /* Element HTML */
 body {
     font-family: "Verdana";
-    width: 1366px;
+    /* width: 1366px; */
 }
 
 span {
@@ -268,7 +268,7 @@ input {
 
 /* footer style */
 .background-white {
-    padding: 40px 0px 55px 0px;
+    padding: 45px 0px 55px 0px;
     background-color: white;
 }
 
