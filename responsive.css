@@ -1,8 +1,6 @@
-/* Ed-start */
-
-/* Tablet */
-
-@media (max-width: 1000px) {
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+/*  ed */
   header {
     width: 100%;
     overflow: hidden;
@@ -54,11 +52,25 @@
   .content-description {
     width: 50%;
   }
+  
+/*  dewi    */
+    .text-box {
+        font-size: 13px;
+    }
+   
+    .background-white {
+        padding: 35px 0px 85px 0px;
+    }
+
+    .background-car2 {
+        padding: 130px 0px;
+    }
 }
 
-/* Mobile */
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
 
-@media (max-width: 650px) {
+/*  ed  */
   .right-header {
     display: none;
   }
@@ -92,6 +104,76 @@
   .second img {
     float: left;
   }
+  
+  
+/*  dewi  */
+    .box {
+      display: block;
+      height: 50%;
+      width: 60%;
+      font-size: 50px;
+      margin: 6% 3% 1% 20%;
+    }
+
+    .tweet {
+        margin: -5% 0%;
+    }
+
+    .tweet-image {
+        width: 50%;
+    }
+
+    .background-white {
+        padding: 35px 0px 75px 0px;
+    }
+
+    h2 {
+        font-size: 160%;
+    }
+
+    .background-grey {
+        padding: 50px 0px 80px 0px;
+    }
+
+    .text-box {
+        font-size: 35%;
+    }
+
+    .background-car2 {
+        padding: 30px 0px;
+    }
+
+    .btn {
+        padding: 2% 12%;
+        font-size: 85%;
+    }
+
+    footer h4 {
+        font-size: 40px;
+    }
+
+    footer p {
+        font-size: 30px;
+    }
+
+    .subscriber {
+        display: inline-grid;
+    }
+
+    input {
+        padding: 10% 25%;
+        font-size: 100%;
+        text-align: center;
+        margin: 25px 0px;
+    }
+
+    footer .btn {
+        padding: 20px 0px;
+        font-size: 150%;
+    }
+
+    .background-black {
+        padding: 40px 0px;
+    }
 }
 
-/* Ed-end */
