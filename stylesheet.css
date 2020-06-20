@@ -50,6 +50,10 @@ h2 {
     margin: -10% 0%;
 }
 
+.tweet-image {
+    width: 150px;
+}
+
 .background-car2 {
     background-image: url("assets/img/footer-background.png");
     background-size: cover;
@@ -83,7 +87,6 @@ input {
 
 .box {
     height: 250px;
-    max-height: 250px;
     display: inline-block;
     width: 25%;
     font-size: 20px;

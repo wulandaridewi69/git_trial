@@ -1,1 +1,62 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+}
 
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .box {
+      display: block;
+      height: 679px;
+      width: 60%;
+      font-size: 50px;
+      margin: 6% 3% 1% 20%;
+    }
+
+    .tweet {
+        margin: -5% 0%;
+    }
+
+    .tweet-image {
+        width: 40%;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .background-grey {
+        padding: 50px 0px 80px 0px;
+    }
+
+    .btn {
+        padding: 25px 140px;
+        font-size: 40px;
+    }
+
+    footer h4 {
+        font-size: 40px;
+    }
+
+    footer p {
+        font-size: 35px;
+    }
+
+    .subscriber {
+        display: inline-grid;
+    }
+
+    input {
+        padding: 40px 0px;
+        font-size: 40px;
+        text-align: center;
+        margin: 25px -70px;
+    }
+
+    footer .btn {
+        padding: 30px 240px;
+    }
+
+    .background-black {
+        padding: 50px 0px;
+    }
+}
