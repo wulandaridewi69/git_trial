@@ -1,3 +1,5 @@
+/* Ed-start*/
+
 /* Reset css */
 
 * {
@@ -37,8 +39,7 @@ top-main {
   float: left;
   list-style: none;
   font-size: 20px;
-  margin-left: 90px;
-  padding: 32px;
+  padding: 32px 45px;
 }
 
 .right-header li:hover {
@@ -67,7 +68,7 @@ top-main {
   letter-spacing: 20px;
   margin-bottom: 60px;
   position: relative;
-  animation: move-left 2s;
+  animation: move-left 3s;
 }
 
 .header-hero p {
@@ -75,7 +76,7 @@ top-main {
   font-size: 24px;
   margin-bottom: 100px;
   letter-spacing: 2px;
-  animation: move-right 2s;
+  animation: move-right 3s;
 }
 
 .top-button {
@@ -85,6 +86,7 @@ top-main {
   padding: 13px 72px;
   background-color: #fb0c1d;
   border-radius: 4px;
+  transition: all 0.3s;
 }
 
 .top-button:hover {
@@ -96,24 +98,30 @@ top-main {
 /* Content section */
 
 .content-section {
-  margin: 75px 300px;
-}
-
-.content-section img {
-  max-width: 500px;
-  width: 100%;
-  flex: auto;
+  margin: 75px auto;
+  max-width: 1100px;
+  height: 1000px;
 }
 
 .content {
-  display: flex;
-  flex-wrap: wrap;
+  height: 350px;
+}
+
+.first img,
+.third img {
+  max-width: 500px;
+  width: 100%;
+  float: left;
+}
+.second img {
+  max-width: 500px;
+  width: 100%;
+  float: right;
 }
 
 .content-description {
   width: 50%;
-  flex: auto;
-  padding: 40px;
+  float: right;
 }
 
 .content h2 {
@@ -161,3 +169,5 @@ top-main {
     right: 0;
   }
 }
+
+/* Ed-end  */
