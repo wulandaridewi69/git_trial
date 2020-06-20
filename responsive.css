@@ -1,7 +1,11 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+    .text-box {
+        font-size: 13px;
+    }
+   
     .background-white {
-        padding: 45px 0px 140px 0px;
+        padding: 35px 0px 85px 0px;
     }
 
     .background-car2 {
@@ -13,7 +17,7 @@
 @media all and (max-width: 670px) {
     .box {
       display: block;
-      height: 679px;
+      height: 50%;
       width: 60%;
       font-size: 50px;
       margin: 6% 3% 1% 20%;
@@ -24,20 +28,32 @@
     }
 
     .tweet-image {
-        width: 40%;
+        width: 50%;
+    }
+
+    .background-white {
+        padding: 35px 0px 75px 0px;
     }
 
     h2 {
-        font-size: 50px;
+        font-size: 160%;
     }
 
     .background-grey {
         padding: 50px 0px 80px 0px;
     }
 
+    .text-box {
+        font-size: 35%;
+    }
+
+    .background-car2 {
+        padding: 30px 0px;
+    }
+
     .btn {
-        padding: 25px 140px;
-        font-size: 40px;
+        padding: 2% 12%;
+        font-size: 85%;
     }
 
     footer h4 {
@@ -45,7 +61,7 @@
     }
 
     footer p {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .subscriber {
@@ -53,17 +69,18 @@
     }
 
     input {
-        padding: 40px 0px;
-        font-size: 40px;
+        padding: 10% 25%;
+        font-size: 100%;
         text-align: center;
-        margin: 25px -70px;
+        margin: 25px 0px;
     }
 
     footer .btn {
-        padding: 30px 240px;
+        padding: 20px 0px;
+        font-size: 150%;
     }
 
     .background-black {
-        padding: 50px 0px;
+        padding: 40px 0px;
     }
 }
