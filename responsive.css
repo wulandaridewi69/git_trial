@@ -71,6 +71,9 @@
 @media all and (max-width: 670px) {
 
 /*  ed  */
+  .navbar-icon {
+    display: block;
+  }
   .right-header {
     display: none;
   }
