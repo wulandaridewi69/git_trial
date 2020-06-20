@@ -64,7 +64,7 @@ top-main {
 }
 
 .header-hero h1 {
-  font-size: 40px;
+  font-size: 36px;
   letter-spacing: 20px;
   margin-bottom: 50px;
   position: relative;
@@ -74,7 +74,7 @@ top-main {
 .header-hero p {
   position: relative;
   font-size: 24px;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
   letter-spacing: 2px;
   animation: move-right 3s;
 }
