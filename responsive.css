@@ -6,11 +6,11 @@
     overflow: hidden;
   }
   .header-logo {
-    padding-left: 50px;
+    padding-left: 30px;
   }
 
   .right-header {
-    padding-right: 50px;
+    padding-right: 30px;
   }
 
   .right-header li {
@@ -31,7 +31,7 @@
   }
 
   .content {
-    padding: 0 100px;
+    padding: 0 25px;
   }
 
   .content h2 {
