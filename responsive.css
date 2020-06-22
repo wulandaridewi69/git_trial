@@ -156,11 +156,12 @@
     }
 
     footer h4 {
-        font-size: 40px;
+        font-size: 150%;
     }
 
     footer p {
-        font-size: 30px;
+        font-size: 100%;
+        margin: 5% 5%;
     }
 
     .subscriber {
@@ -168,19 +169,28 @@
     }
 
     input {
-        padding: 10% 25%;
         font-size: 100%;
         text-align: center;
         margin: 25px 0px;
     }
 
     footer .btn {
-        padding: 20px 0px;
-        font-size: 150%;
+        padding: 5% 20%;
+        font-size: 120%;
+    }
+
+    footer .btn:active {
+        padding: 5% 20%;
+        font-size: 120%;
+    }
+
+    footer .btn:hover {
+        padding: 5% 20%;
+        font-size: 120%;
     }
 
     .background-black {
-        padding: 40px 0px;
+        padding: 20px 0px;
     }
 }
 
