@@ -296,3 +296,12 @@ footer {
     text-align: center;
 }
 
+footer h4 {
+  font-size: 155%;
+}
+
+footer p {
+  margin: 5%;
+  font-size: 100%;
+}
+
